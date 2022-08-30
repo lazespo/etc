@@ -1,23 +1,3 @@
-### Portal
-
-- [X] Create a portal, with portal role, portal user, layout set.
-- [X] Check whether ACL is applied for the portal user.
-- [X] Check whether layout set is applied for a logged portal user.
-
-### 2-factor authentication
-
-- [X] Set up TOTP 2FA for a user and login under that user.
-
-### Passwords
-
-- [X] An admin creates a user (with an email address non-empty), password is empty, *Send Email with Access Info to User* is checked. Check a received access email. Try to login under the new user.
-- [X] An admin changes a password to another user (on the User edit view). 
-- [X] An admin changes a password to another user with *Send Email with Access Info to User* checked (the user should have email address). Check a received email.
-- [X] A regular user changes own password (from the dropdown on the User detail view).
-- [X] Send password change link for another regular user (under the admin from the dropdown on the User detail view).
-- [X] Send password change link for a portal user.
-- [X] Forgot password from the login page. Recover access for a user.
-
 ### Import
 
 - [X] Import CSV with email address, phone number.
