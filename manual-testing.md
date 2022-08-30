@@ -1,39 +1,3 @@
-## Sales Pack
-
-### Quote
-
-- [ ] Creating.
-- [ ] Updating.
-- [ ] Removing from List View.
-- [ ] Removing from Detail View.
-- [ ] Duplicating.
-- [ ] Printing to PDF.
-- [ ] Sending PDF in email.
-
-### Sales Order
-
-- [ ] Creating.
-- [ ] Updating.
-- [ ] Removing from List View.
-- [ ] Removing from Detail View.
-- [ ] Duplicating.
-
-### Invoice
-
-- [ ] Creating.
-- [ ] Updating.
-- [ ] Removing from List View.
-- [ ] Removing from Detail View.
-- [ ] Duplicating.
-
-### Product
-
-- [ ] Creating.
-- [ ] Updating.
-- [ ] Removing from List View.
-- [ ] Removing from Detail View.
-- [ ] Duplicating.
-
 ## Google integration
 
 ### Google Calendar
