@@ -26,6 +26,8 @@ Also, you need to enable Twilio messaging geographic permissions:
 
 Do not forget to set **[Grant access to Messages](https://docs.espocrm.com/extensions/voip-integration/customization/#grant-access-to-messages)** for the required users.
 
+Keep in mind that for Twilio Trial account you will need to add a [**Verified Phone Numbers** or **Caller ID**](https://support.twilio.com/hc/en-us/articles/223180048-Adding-a-Verified-Phone-Number-or-Caller-ID-with-Twilio).
+
 After that, you can proceed to the full installation and configuration of the SMS Providers extension.
 
 ---
