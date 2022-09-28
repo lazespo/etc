@@ -61,7 +61,7 @@ To send mass SMS, you will need to create a Report and Workflow ([Advanced Pack]
 
 To begin with, you need to create a Report with a list of contacts/leads/accounts for which you want to send SMS. You can learn more about Reports [here](https://docs.espocrm.com/user-guide/reports/).
 
-After that, you need to create a Workflow with the *Target Entity* for which you created the Report (Contact/Lead/Account), and with the *Trigger Type* **[Scheduled](https://docs.espocrm.com/administration/workflows/#scheduled)**. Set Scheduling as you need, with what frequency SMS should be sent. You can learn more about Workflows [here](https://docs.espocrm.com/administration/workflows/).
+After that, you need to create a Workflow with the *Target Entity* (Contact/Lead/Account) for which you created the Report, and with the *Trigger Type* **[Scheduled](https://docs.espocrm.com/administration/workflows/#scheduled)**. Set Scheduling as you need, with what frequency SMS should be sent. You can learn more about Workflows [here](https://docs.espocrm.com/administration/workflows/).
 
 After that, for this Workflow, select **Execute Formula Script** *Action* and paste this formula:
 
