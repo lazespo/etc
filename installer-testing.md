@@ -14,7 +14,7 @@ Master: `wget -N https://raw.githubusercontent.com/espocrm/espocrm-installer/mas
 
 Skip confirmation prompts during installation.
 
-- [ ] SUCCESS
+- [x] SUCCESS
 - [ ] FAILED
 
 ```
@@ -24,6 +24,21 @@ bash install.sh -y
 Terminal result:
 
 ```
+Waiting for the first-time EspoCRM configuration.
+This may take up to 5 minutes.
+...
+
+The installation has been successfully completed.
+
+IMPORTANT: Your EspoCRM instance is working in HTTP mode.
+If you want to install with SSL/TLS certificate, use "--ssl" option. For more details, please visit https://docs.espocrm.com/administration/installation-by-script#installation-with-ssltls-certificate.
+
+Login data/information to your EspoCRM instance:
+URL: http://192.168.0.8
+Username: admin
+Password: 68ad301ed5fc
+
+Your instance files are located at: "/var/www/espocrm".
 ```
 
 #### `--domain`
@@ -62,7 +77,7 @@ Terminal result:
 
 Clean the existing EspoCRM installation and start a new one. This option can be used if you have already installed EspoCRM. Ex. `--clean`.
 
-- [ ] SUCCESS
+- [x] SUCCESS
 - [ ] FAILED
 
 ```
@@ -72,6 +87,31 @@ bash install.sh --clean
 Terminal result:
 
 ```
+This script will install EspoCRM with all the needed prerequisites (including Docker, Docker-compose, Nginx, PHP, MySQL).
+Do you want to continue the installation? [y/n] y
+Cleaning the previous installation...
+Creating a backup...
+Backup is created: /home/renata/espocrm-backup/2022-12-05_124638
+
+Summary information:
+  Domain: 192.168.0.8
+  Mode: HTTP only
+Do you want to continue? [y/n] y  
+Waiting for the first-time EspoCRM configuration.
+This may take up to 5 minutes.
+...
+
+The installation has been successfully completed.
+
+IMPORTANT: Your EspoCRM instance is working in HTTP mode.
+If you want to install with SSL/TLS certificate, use "--ssl" option. For more details, please visit https://docs.espocrm.com/administration/installation-by-script#installation-with-ssltls-certificate.
+
+Login data/information to your EspoCRM instance:
+URL: http://192.168.0.8
+Username: admin
+Password: ee00fc212086
+
+Your instance files are located at: "/var/www/espocrm".
 ```
 
 #### `--mysqlRootPassword`
@@ -118,7 +158,7 @@ Terminal result:
 
 Define a username of your EspoCRM administrator. Ex. `--adminUsername=admin`.
 
-- [ ] SUCCESS
+- [x] SUCCESS
 - [ ] FAILED
 
 ```
@@ -128,15 +168,40 @@ bash install.sh --adminUsername=admin
 Terminal result:
 
 ```
+This script will install EspoCRM with all the needed prerequisites (including Docker, Docker-compose, Nginx, PHP, MySQL).
+Do you want to continue the installation? [y/n] y
+Cleaning the previous installation...
+Creating a backup...
+Backup is created: /home/renata/espocrm-backup/2022-12-05_125156
+
+Summary information:
+  Domain: 192.168.0.8
+  Mode: HTTP only
+Do you want to continue? [y/n] y
+Waiting for the first-time EspoCRM configuration.
+This may take up to 5 minutes.
+...
+
+The installation has been successfully completed.
+
+IMPORTANT: Your EspoCRM instance is working in HTTP mode.
+If you want to install with SSL/TLS certificate, use "--ssl" option. For more details, please visit https://docs.espocrm.com/administration/installation-by-script#installation-with-ssltls-certificate.
+
+Login data/information to your EspoCRM instance:
+URL: http://192.168.0.8
+Username: renata
+Password: 0b6baf06280d
+
+Your instance files are located at: "/var/www/espocrm".
 ```
 
-- [ ] Check username in instance.
+- [x] Check username in instance.
 
 #### `--adminPassword`
 
 Define a password of EspoCRM administrator. Ex. `--adminPassword=admin-password`.
 
-- [ ] SUCCESS
+- [x] SUCCESS
 - [ ] FAILED
 
 ```
@@ -146,15 +211,40 @@ bash install.sh --adminPassword=admin-password
 Terminal result:
 
 ```
+This script will install EspoCRM with all the needed prerequisites (including Docker, Docker-compose, Nginx, PHP, MySQL).
+Do you want to continue the installation? [y/n] y
+Cleaning the previous installation...
+Creating a backup...
+Backup is created: /home/renata/espocrm-backup/2022-12-05_124846
+
+Summary information:
+  Domain: 192.168.0.8
+  Mode: HTTP only
+Do you want to continue? [y/n] y
+Waiting for the first-time EspoCRM configuration.
+This may take up to 5 minutes.
+...
+
+The installation has been successfully completed.
+
+IMPORTANT: Your EspoCRM instance is working in HTTP mode.
+If you want to install with SSL/TLS certificate, use "--ssl" option. For more details, please visit https://docs.espocrm.com/administration/installation-by-script#installation-with-ssltls-certificate.
+
+Login data/information to your EspoCRM instance:
+URL: http://192.168.0.8
+Username: admin
+Password: 1
+
+Your instance files are located at: "/var/www/espocrm".
 ```
 
-- [ ] Check password in instance.
+- [x] Check password in instance.
 
 #### `--command`
 
 Update the command.sh for the existing instllation. Ex. `--command`.
 
-- [ ] SUCCESS
+- [x] SUCCESS
 - [ ] FAILED
 
 ```
@@ -164,6 +254,7 @@ bash install.sh --command
 Terminal result:
 
 ```
+Done
 ```
 
 #### `--backupPath`
@@ -171,7 +262,7 @@ Terminal result:
 A path for the backup. Ex. `--backupPath="/backup"`.
 
 - [ ] SUCCESS
-- [ ] FAILED
+- [x] FAILED
 
 ```
 bash install.sh --backupPath="/backup"
@@ -180,6 +271,10 @@ bash install.sh --backupPath="/backup"
 Terminal result:
 
 ```
+This script will install EspoCRM with all the needed prerequisites (including Docker, Docker-compose, Nginx, PHP, MySQL).
+Do you want to continue the installation? [y/n] y
+Cleaning the previous installation...
+Backup is created: /home/renata/espocrm-backup/2022-12-05_125608
 ```
 
 - [ ] Check if backup directory was created in path.
@@ -190,7 +285,7 @@ Terminal result:
 
 #### First time installation
 
-- [ ] SUCCESS
+- [x] SUCCESS
 - [ ] FAILED
 
 ```
@@ -200,15 +295,30 @@ bash install.sh
 1. Terminal result:
 
 ```
+Waiting for the first-time EspoCRM configuration.
+This may take up to 5 minutes.
+...
+
+The installation has been successfully completed.
+
+IMPORTANT: Your EspoCRM instance is working in HTTP mode.
+If you want to install with SSL/TLS certificate, use "--ssl" option. For more details, please visit https://docs.espocrm.com/administration/installation-by-script#installation-with-ssltls-certificate.
+
+Login data/information to your EspoCRM instance:
+URL: http://192.168.0.8
+Username: admin
+Password: a58cdedeb34e
+
+Your instance files are located at: "/var/www/espocrm".
 ```
 
 2. Tested EspoCRM functionality:
 
-- [ ] Admin login
-- [ ] Creating a record
-- [ ] Adding an attachment
-- [ ] Check Scheduled Jobs
-- [ ] Check websocket
+- [x] Admin login
+- [x] Creating a record
+- [x] Adding an attachment
+- [x] Check Scheduled Jobs
+- [x] Check websocket
 
 #### Reinstallation (when already installed)
 
@@ -222,16 +332,44 @@ bash install.sh
 2. Terminal result:
 
 ```
+This script will install EspoCRM with all the needed prerequisites (including Docker, Docker-compose, Nginx, PHP, MySQL).
+Do you want to continue the installation? [y/n] y
+
+The installed EspoCRM instance is found.
+
+Summary information:
+  Domain: 192.168.0.8
+  Mode: HTTP only
+Do you want to continue? [y/n] y
+
+Starting the reinstallation process...
+Creating a backup...
+Backup is created: /home/renata/espocrm-backup/2022-12-05_130328
+
+Waiting for the first-time EspoCRM configuration.
+This may take up to 5 minutes.
+
+The installation has been successfully completed.
+
+IMPORTANT: Your EspoCRM instance is working in HTTP mode.
+If you want to install with SSL/TLS certificate, use "--ssl" option. For more details, please visit https://docs.espocrm.com/administration/installation-by-script#installation-with-ssltls-certificate.
+
+Login data/information to your EspoCRM instance:
+URL: http://192.168.0.8
+Username: admin
+Password: a58cdedeb34e
+
+Your instance files are located at: "/var/www/espocrm".
 ```
 
 3. Tested EspoCRM functionality:
 
-- [ ] Admin login
-- [ ] Admin password is the same as first time?
-- [ ] Creating a record
-- [ ] Adding an attachment
-- [ ] Check Scheduled Jobs
-- [ ] Check websocket
+- [x] Admin login
+- [x] Admin password is the same as first time?
+- [x] Creating a record
+- [x] Adding an attachment
+- [x] Check Scheduled Jobs
+- [x] Check websocket
 
 ## SSL mode
 
