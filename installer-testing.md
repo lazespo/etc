@@ -45,7 +45,7 @@ Your instance files are located at: "/var/www/espocrm".
 
 Define your domain. Ex. `--domain=my-domain.com` (use in installation mode with SSL/TLS or Let's Encrypt certificate).
 
-- [ ] SUCCESS
+- [x] SUCCESS
 - [ ] FAILED
 
 ```
@@ -55,6 +55,27 @@ bash install.sh --domain
 Terminal result:
 
 ```
+This script will install EspoCRM with all the needed prerequisites (including Docker, Docker-compose, Nginx, PHP, MySQL).
+Do you want to continue the installation? [y/n] y
+NOTICE: For using your own SSL/TLS certificates you have to setup them manually after the installation.
+
+Summary information:
+  Domain: espo.local
+  Mode: Own SSL/TLS certificate
+Do you want to continue? [y/n] y
+Waiting for the first-time EspoCRM configuration.
+This may take up to 5 minutes.
+...
+
+The installation has been successfully completed.
+
+IMPORTANT: Your EspoCRM instance is working in insecure mode with a self-signed certificate.
+You have to setup your own SSL/TLS certificates. For more details, please visit https://docs.espocrm.com/administration/installation-by-script#2-own-ssltls-certificate.
+
+Login data/information to your EspoCRM instance:
+URL: https://espo.local
+Username: admin
+Password: ebf29e475135
 ```
 
 #### `--email`
@@ -323,7 +344,7 @@ Your instance files are located at: "/var/www/espocrm".
 #### Reinstallation (when already installed)
 
 - [ ] SUCCESS
-- [ ] FAILED
+- [x] FAILED
 
 ```
 bash install.sh
@@ -377,7 +398,7 @@ Your instance files are located at: "/var/www/espocrm".
 
 #### First time installation
 
-- [ ] SUCCESS
+- [x] SUCCESS
 - [ ] FAILED
 
 ```
@@ -387,19 +408,44 @@ bash install.sh --ssl --owncertificate
 1. Terminal result:
 
 ```
+This script will install EspoCRM with all the needed prerequisites (including Docker, Docker-compose, Nginx, PHP, MySQL).
+Do you want to continue the installation? [y/n] y
+
+NOTICE: For using your own SSL/TLS certificates you have to setup them manually after the installation.
+
+Enter a domain name for the future EspoCRM instance (e.g. espoexample.com): espo.local
+
+Summary information:
+  Domain: espo.local
+  Mode: Own SSL/TLS certificate
+Do you want to continue? [y/n] y
+
+Waiting for the first-time EspoCRM configuration.
+This may take up to 5 minutes.
+...
+
+The installation has been successfully completed.
+
+IMPORTANT: Your EspoCRM instance is working in insecure mode with a self-signed certificate.
+You have to setup your own SSL/TLS certificates. For more details, please visit https://docs.espocrm.com/administration/installation-by-script#2-own-ssltls-certificate.
+
+Login data/information to your EspoCRM instance:
+URL: https://espo.local
+Username: admin
+Password: ebf29e475135
 ```
 
 2. Tested EspoCRM functionality:
 
-- [ ] Admin login
-- [ ] Creating a record
-- [ ] Adding an attachment
-- [ ] Check Scheduled Jobs
-- [ ] Check websocket
+- [x] Admin login
+- [x] Creating a record
+- [x] Adding an attachment
+- [x] Check Scheduled Jobs
+- [x] Check websocket
 
 #### Reinstallation (when already installed)
 
-- [ ] SUCCESS
+- [x] SUCCESS
 - [ ] FAILED
 
 ```
@@ -409,16 +455,48 @@ bash install.sh
 2. Terminal result:
 
 ```
+This script will install EspoCRM with all the needed prerequisites (including Docker, Docker-compose, Nginx, PHP, MySQL).
+Do you want to continue the installation? [y/n] y
+
+The installed EspoCRM instance is found.
+NOTICE: For using your own SSL/TLS certificates you have to setup them manually after the installation.
+
+Enter a domain name for the future EspoCRM instance (e.g. espoexample.com): espo.local
+
+Summary information:
+  Domain: espo.local
+  Mode: Own SSL/TLS certificate
+Do you want to continue? [y/n] y
+
+Starting the reinstallation process...
+Creating a backup...
+Backup is created: /home/renata/espocrm-backup/2022-12-05_131826
+
+Waiting for the first-time EspoCRM configuration.
+This may take up to 5 minutes.
+
+
+The installation has been successfully completed.
+
+IMPORTANT: Your EspoCRM instance is working in insecure mode with a self-signed certificate.
+You have to setup your own SSL/TLS certificates. For more details, please visit https://docs.espocrm.com/administration/installation-by-script#2-own-ssltls-certificate.
+
+Login data/information to your EspoCRM instance:
+URL: https://espo.local
+Username: admin
+Password: ebf29e475135
+
+Your instance files are located at: "/var/www/espocrm".
 ```
 
 3. Tested EspoCRM functionality:
 
-- [ ] Admin login
-- [ ] Admin password is the same as first time?
-- [ ] Creating a record
-- [ ] Adding an attachment
-- [ ] Check Scheduled Jobs
-- [ ] Check websocket
+- [x] Admin login
+- [x] Admin password is the same as first time?
+- [x] Creating a record
+- [x] Adding an attachment
+- [x] Check Scheduled Jobs
+- [x] Check websocket
 
 ### Let's Encrypt mode
 
