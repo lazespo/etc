@@ -1,5 +1,7 @@
 # Export Import extension Testing Map
 
+First, install latest version of extension into your instance: https://github.com/espocrm/ext-export-import/tags.
+
 ## Command examples
 
 #### Export
