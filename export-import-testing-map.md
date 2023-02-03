@@ -56,7 +56,7 @@ The needed Entity type list can be defined. If empty, then gets all Entity types
 - [ ] FAILED
 
 ```
-bin/command export-import export --entity-type-list="ENTITY_TYPE1"
+bin/command export-import export --entity-type-list="ENTITY_TYPE"
 ```
 
 Terminal result (export one entity):
@@ -84,7 +84,7 @@ Terminal result (export several entities):
 - [ ] FAILED
 
 ```
-bin/command export-import export --entity-type-list="__APPEND__, ENTITY_TYPE1"
+bin/command export-import export --entity-type-list="__APPEND__, ENTITY_TYPE"
 ```
 
 Terminal result (export - merge with a default list):
@@ -126,7 +126,7 @@ Terminal result (import several entities):
 - [ ] FAILED
 
 ```
-bin/command export-import import --entity-type-list="__APPEND__, ENTITY_TYPE1"
+bin/command export-import import --entity-type-list="__APPEND__, ENTITY_TYPE"
 ```
 
 Terminal result (import - merge with a default list):
@@ -237,6 +237,18 @@ Terminal result:
 #### `--update-currency`
 
 Update all currency fields. This option is depends on `currency`. If `currency` option is not defined, the default currency will be used instead.
+
+- [ ] SUCCESS
+- [ ] FAILED
+
+```
+bin/command export-import export --update-currency
+```
+
+Terminal result:
+
+```
+```
 
 - [ ] SUCCESS
 - [ ] FAILED
@@ -512,4 +524,4 @@ bin/command export-import import -config-ignore-list="__APPEND__, useCache"
 Terminal result (import - merge with a default list):
 
 ```
-``
+```
