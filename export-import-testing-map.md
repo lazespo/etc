@@ -301,7 +301,6 @@ Export / import all customization made for the instance.
 
 ```
 bin/command export-import export --customization
-
 ```
 
 Terminal result:
@@ -314,7 +313,6 @@ Terminal result:
 
 ```
 bin/command export-import import --customization
-
 ```
 
 Terminal result:
@@ -331,7 +329,6 @@ Export / import all customization made for the instance.
 
 ```
 bin/command export-import export --config
-
 ```
 
 Terminal result:
@@ -344,7 +341,6 @@ Terminal result:
 
 ```
 bin/command export-import import --config
-
 ```
 
 Terminal result:
@@ -361,7 +357,6 @@ The current time will be defined for the `createdAt` field.
 
 ```
 bin/command export-import export --update-created-at
-
 ```
 
 Terminal result:
@@ -374,7 +369,6 @@ Terminal result:
 
 ```
 bin/command export-import import --update-created-at
-
 ```
 
 Terminal result:
@@ -391,7 +385,6 @@ This option enables export feature for an entity which is disabled in `exportImp
 
 ```
 bin/command export-import export --hard-export-list='ENTITY_TYPE'
-
 ```
 
 Terminal result (for one entity):
@@ -404,7 +397,6 @@ Terminal result (for one entity):
 
 ```
 bin/command export-import export --hard-export-list='ENTITY_TYPE1, ENTITY_TYPE1'
-
 ```
 
 Terminal result (for several entities):
@@ -421,7 +413,6 @@ This option enables import feature for an entity which is disabled in `exportImp
 
 ```
 bin/command export-import import --hard-import-list='ENTITY_TYPE'
-
 ```
 
 Terminal result (for one entity):
@@ -434,7 +425,6 @@ Terminal result (for one entity):
 
 ```
 bin/command export-import import --hard-import-list='ENTITY_TYPE1, ENTITY_TYPE1'
-
 ```
 
 Terminal result (for several entities):
