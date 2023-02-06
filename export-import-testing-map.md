@@ -192,18 +192,6 @@ Terminal result:
 ```
 ```
 
-- [ ] SUCCESS
-- [ ] FAILED
-
-```
-bin/command export-import import --pretty-print
-```
-
-Terminal result:
-
-```
-```
-
 #### `--user-active`
 
 Default user status for imported users. This applies to all user except admin user with ID `1`.
