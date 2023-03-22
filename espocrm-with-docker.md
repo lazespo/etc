@@ -7,7 +7,7 @@ In this article:
 - [Enter the EspoCRM container](#enter-the-espocrm-container)
 - [Upgrading EspoCRM in Docker Compose environment](#upgrading-espocrm-in-docker-compose-environment)
 - [Shutdown and cleanup in Docker Compose environment](#shutdown-and-cleanup-in-docker-compose-environment)
-- [Connect Traefik and EspoCRM in Docker Compose environment](#connect-traefik-and-espocrm-in-docker-compose-environment)
+- [Install EspoCRM with Traefik](#install-espocrm-with-traefik)
 
 ## Install EspoCRM with Docker
 
@@ -158,7 +158,7 @@ The `docker compose down` command removes the containers and default network, bu
 
 The `docker compose down --volumes` removes the containers, default network, and the EspoCRM database.
 
-### Connect Traefik and EspoCRM in Docker Compose environment
+### Install EspoCRM with Traefik
 
 You can read the instructions for installing EspoCRM in conjunction with Traefik in the Docker Compose environment [here](https://docs.espocrm.com/administration/docker/traefik/).
 
