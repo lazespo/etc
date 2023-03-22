@@ -1,3 +1,16 @@
+## Install EspoCRM with Docker
+
+You can use Docker Compose to run EspoCRM in an isolated environment built with Docker containers. 
+
+EspoCRM image requires to run MySQL server:
+
+```
+$ docker run --name mysql -e MYSQL_ROOT_PASSWORD=password -d mysql:8 --default-authentication-plugin=mysql_native_password
+```
+- `mysql` — name of container,
+- `MYSQL_ROOT_PASSWORD=password` — you can change `password` to any password you want,
+- `mysql:8` — image version.
+
 ## Install EspoCRM with Docker Compose
 
 You can use Docker Compose to run EspoCRM in an isolated environment built with Docker containers. Before starting, make sure you have [Compose](https://docs.docker.com/compose/install/) installed.
@@ -77,13 +90,29 @@ volumes:
   mysql:
   espocrm:
 ```
-More about Installation Enviroments you can find [here](#installation-environments).
+More about *Installation Enviroments* you can find [here](#installation-environments).
 
-4. Build EspoCRM project.
+4. Build EspoCRM project from directory.
 
 ```
 $ docker compose up -d
 ```
+
+5. Bring up EspoCRM in a web browser. You can use http://localhost as the IP address, and open http://localhost:80 in a web browser.
+
+### Enter the EspoCRM container
+
+In order to enter the container and view the files, make a rebuild, etc., use the following command (`espocrm` is your container name):
+
+```
+$ docker exec -it espocrm bash
+```
+
+### Shutdown and cleanup
+
+The `docker compose down` command removes the containers and default network, but preserves EspoCRM database.
+
+The `docker compose down --volumes` removes the containers, default network, and the EspoCRM database.
 
 ### Installation Environments
 
