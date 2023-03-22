@@ -1,15 +1,50 @@
 ## Install EspoCRM with Docker
 
-You can use Docker Compose to run EspoCRM in an isolated environment built with Docker containers. 
+One of the ways to install EspoCRM is by using its official Docker Image. The EspoCRM Container Package contains the Docker image, which incorporates all the required files and dependencies to launch EspoCRM in development or production environments. You can use Docker to run EspoCRM in an isolated environment built with Docker containers. 
 
 EspoCRM image requires to run MySQL server:
 
 ```
 $ docker run --name mysql -e MYSQL_ROOT_PASSWORD=password -d mysql:8 --default-authentication-plugin=mysql_native_password
 ```
-- `mysql` — name of container,
+
+- `mysql` — name of MySQL container,
 - `MYSQL_ROOT_PASSWORD=password` — you can change `password` to any password you want,
-- `mysql:8` — image version.
+- `mysql:8` — [MySQL image](https://hub.docker.com/_/mysql/tags) version.
+
+Run EspoCRM container:
+
+```
+$ docker run --name my-espocrm --link mysql:mysql -d espocrm/espocrm
+```
+
+- `my-espocrm` — name of EspoCRM container,
+- `mysql:mysql` — name (link) of MySQL container,
+- `espocrm/espocrm` — [EspoCRM image](https://hub.docker.com/r/espocrm/espocrm/tags) version.
+
+#### Run EspoCRM container via a specific port:
+
+```
+$ docker run --name my-espocrm -p 8080:80 --link mysql:mysql -d espocrm/espocrm
+```
+
+Then, access it via `http://localhost:8080` with credentials admin and password.
+
+#### Run EspoCRM via a specific IP or a domain with a port:
+
+```
+$ docker run --name my-espocrm -e ESPOCRM_SITE_URL=http://172.20.0.100:8080 -p 8080:80 --link mysql:mysql -d espocrm/espocrm
+```
+
+Then, access it via `http://172.20.0.100:8080` with credentials **admin** and **password**.
+
+### Enter the EspoCRM container
+
+In order to enter the container and view the files, make a rebuild, etc., use the following command (`my-espocrm` is your container name):
+
+```
+$ docker exec -it my-espocrm bash
+```
 
 ## Install EspoCRM with Docker Compose
 
@@ -90,6 +125,7 @@ volumes:
   mysql:
   espocrm:
 ```
+
 More about *Installation Enviroments* you can find [here](#installation-environments).
 
 4. Build EspoCRM project from directory.
@@ -99,6 +135,19 @@ $ docker compose up -d
 ```
 
 5. Bring up EspoCRM in a web browser. You can use http://localhost as the IP address, and open http://localhost:80 in a web browser.
+
+### Upgrading 
+
+In order to upgrade the container created by the `docker-compose.yml`:
+
+1. Open your EspoCRM container directory.
+2. Run the command:
+
+```
+$ docker compose pull && docker compose up -d
+```
+
+Within a few minutes the container will be upgraded to the latest version.
 
 ### Enter the EspoCRM container
 
