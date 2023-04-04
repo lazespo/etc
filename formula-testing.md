@@ -42,7 +42,7 @@ Then test the output of the formula in any record of the same entity.
 Go to Administration > Entity Manager > any entity (which has a Description field) > Formula and paste the following formula:
 
 <details>
-    <summary><b>Datetime</b> formula:</summary>
+    <summary><b>Datetime</b> formula.</summary>
 
     $datetime = '2023-03-21 13:15:19';
     $datetime1 = '2021-12-31 09:32:01';
@@ -85,7 +85,7 @@ Go to Administration > Entity Manager > any entity (which has a Description fiel
 Then test the output of the formula in any record of the same entity.
 
 <details>
-<summary>Output example:</summary>
+<summary>Output example.</summary>
    
     2023-04-04
     2023-04-04 13:40:47
