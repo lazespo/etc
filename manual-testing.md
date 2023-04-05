@@ -40,6 +40,8 @@
 - [ ] Removing from List View.
 - [ ] Removing from Detail View.
 - [ ] Duplicating.
+- [ ] Create Document from Bottom Panel.
+- [ ] Select Document from Bottom Panel.
 
 ### Case
 
@@ -68,6 +70,13 @@
 - [ ] Apply for imported emails (Group Email).
 
 ### Email Folder
+
+- [ ] Creating.
+- [ ] Updating.
+- [ ] Removing from Detail View.
+- [ ] Duplicating.
+
+### Group Email Folder
 
 - [ ] Creating.
 - [ ] Updating.
@@ -300,13 +309,13 @@
 
 ## Test upgrading to the next version
 
-The test package: https://github.com/tmachyshyn/espocrm-tips/raw/master/_static/files/testing/test-upgrade.zip.
+The test package: https://github.com/espocrm/manual-testing/raw/master/_static/files/espocrm/test-upgrade.zip.
 
 ### 1. Prepare the upgrade package
 
 1. Download and unzip.
 
-2. Replace `7.1.0` to your current version in the `manifest.json`. The current version is the version of the next release, e.g. if you test a master of `7.2.0`, then it's `7.2.0`.
+2. Replace `7.1.0` to your current version in the `manifest.json`. The current version is the version of the next release, e.g. if you test a master of `7.4.0`, then it's `7.4.0`.
 
 3. Pack the package with a new `manifest.json`.
 
@@ -342,6 +351,7 @@ bin/command upgrade --file="test-upgrade.zip"
 - [ ] Report Panel.
 - [ ] Report Filter.
 - [ ] Send report in Email (from UI).
+- [ ] Print to PDF.
 
 ### Workflow
 
