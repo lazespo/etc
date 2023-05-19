@@ -1,5 +1,7 @@
 # How to create a custom default filter to display contacts created **today**
 
+### Important: after creating all the files, you need to make rebuild and clear the browser cache.
+
 1. **custom/Espo/Custom/Classes/Select/Contact/PrimaryFilters/Today.php**
 
 ```
