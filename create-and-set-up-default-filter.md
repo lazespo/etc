@@ -1,4 +1,4 @@
-# How to create a default filter to display contacts created **today**
+# How to create a custom default filter to display contacts created **today**
 
 1. **custom/Espo/Custom/Classes/Select/Contact/PrimaryFilters/Today.php**
 
