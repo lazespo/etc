@@ -62,10 +62,4 @@
 
 ### Reports, Report Panels, Report Filters import file: 
 
-*Note*: create `birthOfDate` field for Contact entity (for Contacts that have birthday today report).
-
-*ACL reports*: 
-- 	Opportunities by user
-- 	Leads by status
-- 	Contacts grouped by Account
-- 	Leads by source
+*Note*: create `birthOfDate` field with Date type for Contact entity (for Contacts that have birthday today report).
