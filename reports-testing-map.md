@@ -50,6 +50,19 @@ When testing, be sure to keep the browser console open (F12) and open error logs
 - [ ] Export in CSV.
 - [ ] Export in XLSX.
 
+### Joint Grid Reports
+
+- [ ] Creating.
+- [ ] Updating.
+- [ ] Removing from List View.
+- [ ] Removing from Detail View.
+- [ ] Duplicating.
+- [ ] Report dashlet.
+- [ ] Send in Email (from UI).
+- [ ] Print to PDF.
+- [ ] Export in CSV.
+- [ ] Export in XLSX.
+
 ### Reports on Portal
 
 #### List Report
