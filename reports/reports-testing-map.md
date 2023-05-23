@@ -77,6 +77,8 @@ When testing, be sure to keep the browser console open (F12) and open error logs
 - [ ] Report Panel.
 - [ ] Report Filter.
 
-### Reports, Report Panels, Report Filters import file: https://github.com/lazespo/etc/blob/main/reports/ExportImport.zip.
+---
+
+**Reports, Report Panels, Report Filters import file:** https://github.com/lazespo/etc/blob/main/reports/ExportImport.zip
 
 *Note*: create `birthOfDate` field with Date type for Contact entity (for Contacts that have birthday today report).
