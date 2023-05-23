@@ -57,7 +57,7 @@
 
 #### Grid Report
 - [ ] Read.
-- [ ] Report Panel
+- [ ] Report Panel.
 - [ ] Report Filter.
 
 ### Reports, Report Panels, Report Filters import file: 
