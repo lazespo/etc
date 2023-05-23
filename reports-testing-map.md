@@ -1,5 +1,7 @@
 ## Manual Report Testing
 
+When testing, be sure to keep the browser console open (F12) and open error logs. If there are errors, create a bug report in Asana.
+
 ### List Reports
 
 - [ ] Creating.
