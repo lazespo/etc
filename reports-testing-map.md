@@ -48,6 +48,18 @@
 - [ ] Export in CSV.
 - [ ] Export in XLSX.
 
+### Reports on Portal
+
+#### List Report
+- [ ] Read.
+- [ ] Report Panel.
+- [ ] Report Filter.
+
+#### Grid Report
+- [ ] Read.
+- [ ] Report Panel
+- [ ] Report Filter.
+
 ### Reports, Report Panels, Report Filters import file: 
 
 *Note*: create `birthOfDate` field for Contact entity (for Contacts that have birthday today report).
