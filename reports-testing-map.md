@@ -52,11 +52,13 @@
 
 #### List Report
 - [ ] Read.
+- [ ] Report Dashlet.
 - [ ] Report Panel.
 - [ ] Report Filter.
 
 #### Grid Report
 - [ ] Read.
+- [ ] Report Dashlet.
 - [ ] Report Panel.
 - [ ] Report Filter.
 
