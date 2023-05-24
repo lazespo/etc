@@ -21,6 +21,10 @@ When testing, be sure to keep the browser console open (F12) and open EspoCRM er
 - [ ] Print to PDF.
 - [ ] Export in CSV.
 - [ ] Export in XLSX.
+- [ ] Email Sending (scheduled).
+- [ ] Scheduled Workflow.
+- [ ] Manual sync with Target List.
+- [ ] Scheduled sync with Target List.
 
 ## Grid Reports
 
@@ -38,6 +42,7 @@ When testing, be sure to keep the browser console open (F12) and open EspoCRM er
 - [ ] Grouped by 1 fields without ACL.
 - [ ] Grouped by 2 fields with ACL.
 - [ ] Grouped by 2 fields without ACL.
+- [ ] Click in the report results on the fields by which it is grouped, check if everything is displayed correctly.
 - [ ] With non-aggregate fields (non-grouping) with ACL.
 - [ ] With non-aggregate fields (non-grouping) without ACL.
 - [ ] With non-aggregate fields (grouping) with ACL.
@@ -49,15 +54,26 @@ When testing, be sure to keep the browser console open (F12) and open EspoCRM er
 - [ ] Print to PDF.
 - [ ] Export in CSV.
 - [ ] Export in XLSX.
+- [ ] Email Sending (scheduled).
 
 ### Grouping By field types
-- [ ] Varchar
-- [ ] Enum
-- [ ] Url
+
+- [ ] Attachment Multiple
+- [ ] Auto-increment
+- [ ] Barcode
 - [ ] Boolean
-- [ ] Phone
-- [ ] Email
-- [ ] Link
+- [ ] Currency
+- [ ] Date
+- [ ] Date-Time
+- [ ] Enum
+- [ ] File
+- [ ] Float
+- [ ] Image
+- [ ] Integer
+- [ ] Number
+- [ ] Url
+- [ ] Varchar
+- [ ] Wysiwyg
 
 ## Joint Grid Reports
 
@@ -71,6 +87,7 @@ When testing, be sure to keep the browser console open (F12) and open EspoCRM er
 - [ ] Print to PDF.
 - [ ] Export in CSV.
 - [ ] Export in XLSX.
+- [ ] Email Sending (scheduled).
 
 ## Reports on Portal
 
