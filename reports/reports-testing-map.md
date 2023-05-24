@@ -1,6 +1,6 @@
 ## Manual Report Testing
 
-When testing, be sure to keep the browser console open (F12) and open error logs. If there are errors, create a bug report in Asana.
+When testing, be sure to keep the browser console open (F12) and open EspoCRM error logs. If there are errors, create a bug report in Asana.
 
 ### List Reports
 
@@ -49,6 +49,15 @@ When testing, be sure to keep the browser console open (F12) and open error logs
 - [ ] Print to PDF.
 - [ ] Export in CSV.
 - [ ] Export in XLSX.
+
+#### Grouping By field types
+- [ ] Varchar
+- [ ] Enum
+- [ ] Url
+- [ ] Boolean
+- [ ] Phone
+- [ ] Email
+- [ ] Link
 
 ### Joint Grid Reports
 
