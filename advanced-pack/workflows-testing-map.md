@@ -2,6 +2,7 @@
 
 ### Conditions
 
+- [ ] None
 - [ ] All
 - [ ] Any
 - [ ] Formula
@@ -28,6 +29,7 @@
 
 ### Conditions
 
+- [ ] None
 - [ ] All
 - [ ] Any
 - [ ] Formula
@@ -54,6 +56,7 @@
 
 ### Conditions
 
+- [ ] None
 - [ ] All
 - [ ] Any
 - [ ] Formula
@@ -80,6 +83,7 @@
 
 ### Conditions
 
+- [ ] None
 - [ ] All
 - [ ] Any
 - [ ] Formula
@@ -106,6 +110,7 @@
 
 ### Conditions
 
+- [ ] None
 - [ ] All
 - [ ] Any
 - [ ] Formula
@@ -132,6 +137,7 @@
 
 ### Conditions
 
+- [ ] None
 - [ ] All
 - [ ] Any
 - [ ] Formula
@@ -158,6 +164,7 @@
 
 ### Conditions
 
+- [ ] None
 - [ ] All
 - [ ] Any
 - [ ] Formula
