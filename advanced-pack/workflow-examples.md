@@ -2,11 +2,9 @@
 
 ### None
 
-- [ ] Send Email + Create Record + Create Related Record
-- [ ] Update Target Record + Update Related Record + Link with another Record
-- [ ] Unlink from another Record + Apply Assignment Rule + Create Notification
-- [ ] Make Followed + Trigger another Workflow + Run Service Action
-- [ ] Start BPM Process + Send HTTP Request + Execute Formula Script
+- [ ] Send Email + Create Record + Create Related Record + Update Target Record + Update Related Record
+- [ ] Link with another Record + Unlink from another Record + Apply Assignment Rule + Create Notification + Make Followed 
+- [ ] Trigger another Workflow + Run Service Action + Start BPM Process + Send HTTP Request + Execute Formula Script
   
 ### All
 
@@ -102,7 +100,7 @@
  
 ## Manual
 
-### None
+### With Conditions
 
 - [ ] Send Email + Create Record + Create Related Record
 - [ ] Update Target Record + Update Related Record + Link with another Record
@@ -110,7 +108,7 @@
 - [ ] Make Followed + Trigger another Workflow + Run Service Action
 - [ ] Start BPM Process + Send HTTP Request + Execute Formula Script
   
-### All
+### Without Conditions
 
 - [ ] Send Email + Create Record + Create Related Record
 - [ ] Update Target Record + Update Related Record + Link with another Record
@@ -118,21 +116,21 @@
 - [ ] Make Followed + Trigger another Workflow + Run Service Action
 - [ ] Start BPM Process + Send HTTP Request + Execute Formula Script
 
-### Any
+### Element Type
 
-- [ ] Send Email + Create Record + Create Related Record
-- [ ] Update Target Record + Update Related Record + Link with another Record
-- [ ] Unlink from another Record + Apply Assignment Rule + Create Notification
-- [ ] Make Followed + Trigger another Workflow + Run Service Action
-- [ ] Start BPM Process + Send HTTP Request + Execute Formula Script
+- [ ] Button
+- [ ] Dropdown Item
 
-### Formula
+### Teams
 
-- [ ] Send Email + Create Record + Create Related Record
-- [ ] Update Target Record + Update Related Record + Link with another Record
-- [ ] Unlink from another Record + Apply Assignment Rule + Create Notification
-- [ ] Make Followed + Trigger another Workflow + Run Service Action
-- [ ] Start BPM Process + Send HTTP Request + Execute Formula Script
+- [ ] with
+- [ ] without
+
+### Access
+
+- [ ] Read
+- [ ] Edit
+- [ ] Admin
 
 ## Sequential
 
