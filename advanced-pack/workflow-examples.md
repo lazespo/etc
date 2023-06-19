@@ -2,9 +2,11 @@
 
 ### None
 
-- [ ] Send Email + Create Record + Create Related Record + Update Target Record + Update Related Record
-- [ ] Link with another Record + Unlink from another Record + Apply Assignment Rule + Create Notification + Make Followed 
-- [ ] Trigger another Workflow + Run Service Action + Start BPM Process + Send HTTP Request + Execute Formula Script
+- [ ] Send Email + Create Record + Create Related Record
+- [ ] Update Target Record + Update Related Record + Link with another Record
+- [ ] Unlink from another Record + Apply Assignment Rule + Create Notification
+- [ ] Make Followed + Trigger another Workflow + Run Service Action
+- [ ] Start BPM Process + Send HTTP Request + Execute Formula Script
   
 ### All
 
