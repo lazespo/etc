@@ -284,52 +284,12 @@
 - [ ] Send mass email.
 - [ ] Tracking URL in mass email.
 
-## Configure WebSocket
-
-- [ ] Configure websocket service.
-- [ ] Enable websocket.
-- [ ] Test websocket functionality.
-- [ ] Edit User, save changes, duplicate User.
-
-## LDAP
-
-- [ ] Connect to the LDAP server.
-- [ ] Set up Team for a new user.
-- [ ] Log in as a user.
-- [ ] Configure settings for Portal User.
-- [ ] Log in as a Portal User.
-- [ ] Log in as another user.
-
 ## OIDC
 
 - [ ] Create User.
 - [ ] Change Username Claim.
 - [ ] Allow OIDC login for admin users.
 - [ ] Sync Teams.
-
-## Test upgrading to the next version
-
-The test package: https://github.com/espocrm/manual-testing/raw/master/_static/files/espocrm/test-upgrade.zip.
-
-### 1. Prepare the upgrade package
-
-1. Download and unzip.
-
-2. Replace `7.1.0` to your current version in the `manifest.json`. The current version is the version of the next release, e.g. if you test a master of `7.4.0`, then it's `7.4.0`.
-
-3. Pack the package with a new `manifest.json`.
-
-### 2. Test UI upgrade
-
-- [ ] Go to Administration > Upgrade.
-
-### 3. Test cli upgrade
-
-- [ ] Success
-
-```
-bin/command upgrade --file="test-upgrade.zip"
-```
 
 ## Advanced Pack
 
@@ -517,8 +477,3 @@ bin/command upgrade --file="test-upgrade.zip"
 ## Real Estate
 
 - [ ] Test properties and requests matching.
-
-## Demo Data
-
-- [ ] Install.
-- [ ] Remove.
