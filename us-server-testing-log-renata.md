@@ -126,19 +126,19 @@
 
 ### Call
 
-- [ ] Creating.
-- [ ] Updating.
-- [ ] Removing from List View.
-- [ ] Removing from Detail View.
-- [ ] Duplicating.
+- [x] Creating.
+- [x] Updating.
+- [x] Removing from List View.
+- [x] Removing from Detail View.
+- [x] Duplicating.
 
 ### Task
 
-- [ ] Creating.
-- [ ] Updating.
-- [ ] Removing from List View.
-- [ ] Removing from Detail View.
-- [ ] Duplicating.
+- [x] Creating.
+- [x] Updating.
+- [x] Removing from List View.
+- [x] Removing from Detail View.
+- [x] Duplicating.
 
 ### Campaign
 
@@ -159,12 +159,12 @@
 
 ### Document
 
-- [ ] Creating.
-- [ ] Updating.
-- [ ] Removing from List View.
-- [ ] Removing from Detail View.
-- [ ] Duplicating.
-- [ ] Creating by drag-n-drpping file on the list view.
+- [x] Creating.
+- [x] Updating.
+- [x] Removing from List View.
+- [x] Removing from Detail View.
+- [x] Duplicating.
+- [x] Creating by drag-n-drpping file on the list view.
 
 ### User
 
@@ -195,9 +195,9 @@
 
 ### Personal Email Account
 
-- [ ] Create account with IMAP and SMTP.
-- [ ] Check emails are received and available in the user's INBOX.
-- [ ] Test email sending from the account.
+- [x] Create account with IMAP and SMTP.
+- [x] Check emails are received and available in the user's INBOX.
+- [x] Test email sending from the account.
 
 ### Group Email Account
 
