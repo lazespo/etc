@@ -406,18 +406,18 @@
 
 ### Outlook Calendar
 
-- [x] Create one Meeting/Call on Espo side.
-- [x] Check sync. on Outlook side.
-- [x] Edit Meeting, on Espo side.
-- [x] Check changes on Outlook side.
-- [x] Create one Meeting/Call on Outlook side. 
-- [x] Check sync. on Espo side.
-- [x] Edit Meeting, on Outlook side.
-- [x] Check changes on Espo side.
-- [x] Create one Meeting/Call with an arbitrary date for the next 7-8 months on Espo side.
-- [x] Check sync. on Outlook side.
-- [x] Edit Meeting, on Espo side.
-- [x] Check changes on Outlook side.
+- [ ] Create one Meeting/Call on Espo side.
+- [ ] Check sync. on Outlook side.
+- [ ] Edit Meeting, on Espo side.
+- [ ] Check changes on Outlook side.
+- [ ] Create one Meeting/Call on Outlook side. 
+- [ ] Check sync. on Espo side.
+- [ ] Edit Meeting, on Outlook side.
+- [ ] Check changes on Espo side.
+- [ ] Create one Meeting/Call with an arbitrary date for the next 7-8 months on Espo side.
+- [ ] Check sync. on Outlook side.
+- [ ] Edit Meeting, on Espo side.
+- [ ] Check changes on Outlook side.
 - [ ] Create one Meeting/Call with an arbitrary date for the next 7-8 months on Outlook side. - https://app.asana.com/0/932884031059353/1202920244817837
 - [ ] Check sync. on Espo side.
 - [ ] Edit Meeting, on Outlook side.
@@ -425,17 +425,17 @@
 
 ### Outlook Contacts
 
-- [x] Push contacts to Outlook.
-- [x] Check contacts availability on Outlook side.
-- [x] Check Contacts folders in External Accounts settings. 
+- [ ] Push contacts to Outlook.
+- [ ] Check contacts availability on Outlook side.
+- [ ] Check Contacts folders in External Accounts settings. 
 
 ### Outlook emails
 
-- [x] Check fetch emails on Espo side (Personal Email Account).
-- [x] Check fetch emails on Espo side (Group Email Account).
-- [x] Sending emails from Espo.
-- [x] IMAP connection with OAuth.
-- [x] SMTP connection with OAuth.
+- [ ] Check fetch emails on Espo side (Personal Email Account).
+- [ ] Check fetch emails on Espo side (Group Email Account).
+- [ ] Sending emails from Espo.
+- [ ] IMAP connection with OAuth.
+- [ ] SMTP connection with OAuth.
 
 ## VoIP Integration
 
