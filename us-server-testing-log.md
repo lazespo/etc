@@ -375,32 +375,32 @@
 
 ### Google Calendar
 
-- [x] Create Meeting, Call on Espo side.
-- [x] Check sync. on Google side.
-- [x] Create Meeting, Call on Google side.
-- [x] Check sync. on Espo side.
-- [x] Edit Meeting, on Espo side.
-- [x] Check changes on Google side.
-- [x] Edit Meeting, on Google side.
-- [x] Check changes on Espo side.
+- [ ] Create Meeting, Call on Espo side.
+- [ ] Check sync. on Google side.
+- [ ] Create Meeting, Call on Google side.
+- [ ] Check sync. on Espo side.
+- [ ] Edit Meeting, on Espo side.
+- [ ] Check changes on Google side.
+- [ ] Edit Meeting, on Google side.
+- [ ] Check changes on Espo side.
 
 ### Google Contacts
 
-- [x] Push contacts to Google.
-- [x] Check contacts availability on Google side.
+- [ ] Push contacts to Google.
+- [ ] Check contacts availability on Google side.
 
 ### Gmail secure authentication
 
-- [x] Check Personal Email Account auth.
-- [x] Check Group Email Account auth.
-- [x] Check fetch emails on Espo side.
-- [x] Sending emails from Espo.
-- [x] IMAP connection with OAuth.
-- [x] SMTP connection with OAuth.
+- [ ] Check Personal Email Account auth.
+- [ ] Check Group Email Account auth.
+- [ ] Check fetch emails on Espo side.
+- [ ] Sending emails from Espo.
+- [ ] IMAP connection with OAuth.
+- [ ] SMTP connection with OAuth.
 
 ### Google Maps
 
-- [x] Check whether Google Map can be printed in PDF.
+- [ ] Check whether Google Map can be printed in PDF.
 
 ## Outlook Integration
 
