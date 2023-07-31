@@ -417,7 +417,7 @@
 - [ ] Check sync. on Outlook side.
 - [ ] Edit Meeting, on Espo side.
 - [ ] Check changes on Outlook side.
-- [ ] Create one Meeting/Call with an arbitrary date for the next 7-8 months on Outlook side. - https://app.asana.com/0/932884031059353/1202920244817837
+- [ ] Create one Meeting/Call with an arbitrary date for the next 7-8 months on Outlook side.
 - [ ] Check sync. on Espo side.
 - [ ] Edit Meeting, on Outlook side.
 - [ ] Check changes on Espo side.
