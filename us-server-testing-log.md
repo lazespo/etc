@@ -4,7 +4,6 @@
 
 - [ ] Change language.
 - [ ] Rebuild. 
-- [ ] Extensions installation.
 
 ## Entities
 
