@@ -60,12 +60,12 @@
 
 ### Email Filter
 
-- [ ] Creating.
-- [ ] Updating.
-- [ ] Removing from List View.
-- [ ] Removing from Detail View.
-- [ ] Duplicating.
-- [ ] Apply for imported emails (Personal Email).
+- [x] Creating.
+- [x] Updating.
+- [x] Removing from List View.
+- [x] Removing from Detail View.
+- [x] Duplicating.
+- [x] Apply for imported emails (Personal Email).
 - [ ] Apply for imported emails (Group Email).
 
 ### Email Folder
@@ -84,11 +84,11 @@
 
 ### Personal Email Account
 
-- [ ] Creating.
-- [ ] Updating.
-- [ ] Removing from List View.
-- [ ] Removing from Detail View.
-- [ ] Duplicating.
+- [x] Creating.
+- [x] Updating.
+- [x] Removing from List View.
+- [x] Removing from Detail View.
+- [x] Duplicating.
 
 ### Group Email Account
 
