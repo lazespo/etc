@@ -9,54 +9,54 @@
 
 ### Account
 
-- [ ] Creating.
-- [ ] Updating.
-- [ ] Removing from List View.
-- [ ] Removing from Detail View.
-- [ ] Duplicating.
+- [x] Creating.
+- [x] Updating.
+- [x] Removing from List View.
+- [x] Removing from Detail View.
+- [x] Duplicating.
 
 ### Contact
 
-- [ ] Creating.
-- [ ] Updating.
-- [ ] Removing from List View.
-- [ ] Removing from Detail View.
-- [ ] Duplicating.
+- [x] Creating.
+- [x] Updating.
+- [x] Removing from List View.
+- [x] Removing from Detail View.
+- [x] Duplicating.
 
 ### Lead
 
-- [ ] Creating.
-- [ ] Updating.
-- [ ] Removing from List View.
-- [ ] Removing from Detail View.
-- [ ] Duplicating.
-- [ ] Lead Convert.
+- [x] Creating.
+- [x] Updating.
+- [x] Removing from List View.
+- [x] Removing from Detail View.
+- [x] Duplicating.
+- [x] Lead Convert.
 
 ### Opportunity
 
-- [ ] Creating.
-- [ ] Updating.
-- [ ] Removing from List View.
-- [ ] Removing from Detail View.
-- [ ] Duplicating.
-- [ ] Create Document from Bottom Panel.
-- [ ] Select Document from Bottom Panel.
+- [x] Creating.
+- [x] Updating.
+- [x] Removing from List View.
+- [x] Removing from Detail View.
+- [x] Duplicating.
+- [x] Create Document from Bottom Panel.
+- [x] Select Document from Bottom Panel.
 
 ### Case
 
-- [ ] Creating.
-- [ ] Updating.
-- [ ] Removing from List View.
-- [ ] Removing from Detail View.
-- [ ] Duplicating.
+- [x] Creating.
+- [x] Updating.
+- [x] Removing from List View.
+- [x] Removing from Detail View.
+- [x] Duplicating.
 
 ### Email Template
 
-- [ ] Creating.
-- [ ] Updating.
-- [ ] Remove from List View.
-- [ ] Remove from Detail View.
-- [ ] Duplicate.
+- [x] Creating.
+- [x] Updating.
+- [x] Remove from List View.
+- [x] Remove from Detail View.
+- [x] Duplicate.
 
 ### Email Filter
 
@@ -70,17 +70,17 @@
 
 ### Email Folder
 
-- [ ] Creating.
-- [ ] Updating.
-- [ ] Removing from Detail View.
-- [ ] Duplicating.
+- [x] Creating.
+- [x] Updating.
+- [x] Removing from Detail View.
+- [x] Duplicating.
 
 ### Group Email Folder
 
-- [ ] Creating.
-- [ ] Updating.
-- [ ] Removing from Detail View.
-- [ ] Duplicating.
+- [x] Creating.
+- [x] Updating.
+- [x] Removing from Detail View.
+- [x] Duplicating.
 
 ### Personal Email Account
 
