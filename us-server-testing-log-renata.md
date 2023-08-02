@@ -449,12 +449,12 @@
 
 ### Twilio
 
-- [ ] Make a call from sip "201" to sip "202".
-- [ ] Pick up the phone.
-- [ ] Create a Contact from a call.
-- [ ] Make a click-to-call from created Contact.
-- [ ] Pick up the phone on sip "201".
-- [ ] Pick up the phone on sip "202".
+- [x] Make a call from sip "201" to sip "202".
+- [x] Pick up the phone.
+- [x] Create a Contact from a call.
+- [x] Make a click-to-call from created Contact.
+- [x] Pick up the phone on sip "201".
+- [x] Pick up the phone on sip "202".
 
 ### Starface
 
