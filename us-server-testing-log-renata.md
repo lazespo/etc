@@ -92,11 +92,11 @@
 
 ### Group Email Account
 
-- [ ] Creating.
-- [ ] Updating.
-- [ ] Removing from List View.
-- [ ] Removing from Detail View.
-- [ ] Duplicating.
+- [x] Creating.
+- [x] Updating.
+- [x] Removing from List View.
+- [x] Removing from Detail View.
+- [x] Duplicating.
 
 ### Target List
 
@@ -201,10 +201,10 @@
 
 ### Group Email Account
 
-- [ ] Create account with IMAP and SMTP.
-- [ ] Check emails are received.
-- [ ] Test email sending from the account.
-- [ ] Email-to-Case.
+- [x] Create account with IMAP and SMTP.
+- [x] Check emails are received.
+- [x] Test email sending from the account.
+- [x] Email-to-Case.
 
 ### Email
 
