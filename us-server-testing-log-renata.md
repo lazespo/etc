@@ -100,22 +100,22 @@
 
 ### Target List
 
-- [ ] Creating.
-- [ ] Updating.
-- [ ] Removing from List View.
-- [ ] Removing from Detail View.
-- [ ] Duplicating.
-- [ ] Populate the target list with leads using 'select all results'.
+- [x] Creating.
+- [x] Updating.
+- [x] Removing from List View.
+- [x] Removing from Detail View.
+- [x] Duplicating.
+- [x] Populate the target list with leads using 'select all results'.
 
 ### Calendar
 
-- [ ] Create events.
-- [ ] A shared view.
-- [ ] Timeline.
+- [x] Create events.
+- [x] A shared view.
+- [x] Timeline.
 
 ### Meeting
 
-- [ ] Creating.
+- [x] Creating.
 - [ ] Updating.
 - [ ] Removing from List View.
 - [ ] Removing from Detail View.
@@ -208,18 +208,18 @@
 
 ### Email
 
-- [ ] Apply email template, test placeholders.
-- [ ] Save draft and send.
-- [ ] Remove email.
+- [x] Apply email template, test placeholders.
+- [x] Save draft and send.
+- [x] Remove email.
 
 ### Stream
 
-- [ ] Post on record.
-- [ ] Post attachments.
-- [ ] Update post.
-- [ ] Remove post.
-- [ ] Post to another user.
-- [ ] Post to team.
+- [x] Post on record.
+- [x] Post attachments.
+- [x] Update post.
+- [x] Remove post.
+- [x] Post to another user.
+- [x] Post to team.
 
 ### Portal
 
