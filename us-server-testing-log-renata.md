@@ -66,7 +66,7 @@
 - [x] Removing from Detail View.
 - [x] Duplicating.
 - [x] Apply for imported emails (Personal Email).
-- [ ] Apply for imported emails (Group Email).
+- [x] Apply for imported emails (Group Email).
 
 ### Email Folder
 
@@ -117,7 +117,7 @@
 
 - [x] Creating.
 - [x] Updating.
-- [ ] Removing from List View.
+- [x] Removing from List View.
 - [x] Removing from Detail View.
 - [x] Duplicating.
 - [x] Send invitations.
@@ -223,65 +223,65 @@
 
 ### Portal
 
-- [ ] Create a portal, with portal role, portal user, layout set.
-- [ ] Check whether ACL is applied for the portal user.
-- [ ] Check whether layout set is applied for a logged portal user.
+- [x] Create a portal, with portal role, portal user, layout set.
+- [x] Check whether ACL is applied for the portal user.
+- [x] Check whether layout set is applied for a logged portal user.
 
 ### 2-factor authentication
 
-- [ ] Set up TOTP 2FA for a user and login under that user.
+- [x] Set up TOTP 2FA for a user and login under that user.
 
 ### Passwords
 
-- [ ] An admin creates a user (with an email address non-empty), password is empty, *Send Email with Access Info to User* is checked. Check a received access email. Try to login under the new user.
-- [ ] An admin changes a password to another user (on the User edit view). 
-- [ ] An admin changes a password to another user with *Send Email with Access Info to User* checked (the user should have email address). Check a received email.
-- [ ] A regular user changes own password (from the dropdown on the User detail view).
-- [ ] Send password change link for another regular user (under the admin from the dropdown on the User detail view).
-- [ ] Send password change link for a portal user.
-- [ ] Forgot password from the login page. Recover access for a user.
+- [x] An admin creates a user (with an email address non-empty), password is empty, *Send Email with Access Info to User* is checked. Check a received access email. Try to login under the new user.
+- [x] An admin changes a password to another user (on the User edit view). 
+- [x] An admin changes a password to another user with *Send Email with Access Info to User* checked (the user should have email address). Check a received email.
+- [x] A regular user changes own password (from the dropdown on the User detail view).
+- [x] Send password change link for another regular user (under the admin from the dropdown on the User detail view).
+- [x] Send password change link for a portal user.
+- [x] Forgot password from the login page. Recover access for a user.
 
 ### Import
 
-- [ ] Import CSV with email address, phone number.
-- [ ] Import Create Only.
-- [ ] Import Create and Update.
-- [ ] Check duplicate detection.
-- [ ] Import invalid email, check the record is available in the Errors panel.
-- [ ] Import in idle.
-- [ ] Import by command line (manully).
-- [ ] Import with same params.
-- [ ] Revert import.
+- [x] Import CSV with email address, phone number.
+- [x] Import Create Only.
+- [x] Import Create and Update.
+- [x] Check duplicate detection.
+- [x] Import invalid email, check the record is available in the Errors panel.
+- [x] Import in idle.
+- [x] Import by command line (manully).
+- [x] Import with same params.
+- [x] Revert import.
 
 ### Currency
 
-- [ ] Currency converting.
+- [x] Currency converting.
 
 ### Entity Manager
 
-- [ ] Create a custom entity.
-- [ ] Edit entity.
-- [ ] Edit formula.
-- [ ] Create custom field.
-- [ ] Edit custom field.
-- [ ] Delete custom field.
-- [ ] Delete custom entity.
+- [x] Create a custom entity.
+- [x] Edit entity.
+- [x] Edit formula.
+- [x] Create custom field.
+- [x] Edit custom field.
+- [x] Delete custom field.
+- [x] Delete custom entity.
 
 ### Layout sets
 
-- [ ] Create a layout set.
-- [ ] Apply the layout set to a team and test it's working for a logged user (the team should be a default team for the user).
+- [x] Create a layout set.
+- [x] Apply the layout set to a team and test it's working for a logged user (the team should be a default team for the user).
 
 ### Lead Capture
 
-- [ ] Set up lead capture without opt-in confirmation, send API request, check lead is created.
-- [ ] Set up lead capture with opt-in confirmation, send API request, check whether works properly.
-- [ ] Check duplicate detecting works properly.
+- [x] Set up lead capture without opt-in confirmation, send API request, check lead is created.
+- [x] Set up lead capture with opt-in confirmation, send API request, check whether works properly.
+- [x] Check duplicate detecting works properly.
 
 ### Mass Email
 
-- [ ] Send mass email.
-- [ ] Tracking URL in mass email.
+- [x] Send mass email.
+- [x] Tracking URL in mass email.
 
 ## OIDC
 
@@ -294,81 +294,81 @@
 
 ### Report
 
-- [ ] Creating.
-- [ ] Updating.
-- [ ] Removing from List View.
-- [ ] Removing from Detail View.
-- [ ] Duplicating.
-- [ ] List type report.
-- [ ] Grid type report grouped by 1 field.
-- [ ] Grid type report grouped by 2 fields.
-- [ ] Grid type report grouped by 0 fields.
-- [ ] Grid type report with non-aggregate fields (non-grouping).
-- [ ] Grid type report with non-aggregate fields (grouping).
-- [ ] Report dashlet Grid.
-- [ ] Report dashlet List.
-- [ ] Report Panel.
-- [ ] Report Filter.
-- [ ] Send report in Email (from UI).
-- [ ] Print to PDF.
+- [x] Creating.
+- [x] Updating.
+- [x] Removing from List View.
+- [x] Removing from Detail View.
+- [x] Duplicating.
+- [x] List type report.
+- [x] Grid type report grouped by 1 field.
+- [x] Grid type report grouped by 2 fields.
+- [x] Grid type report grouped by 0 fields.
+- [x] Grid type report with non-aggregate fields (non-grouping).
+- [x] Grid type report with non-aggregate fields (grouping).
+- [x] Report dashlet Grid.
+- [x] Report dashlet List.
+- [x] Report Panel.
+- [x] Report Filter.
+- [x] Send report in Email (from UI).
+- [x] Print to PDF.
 
 ### Workflow
 
-- [ ] Creating.
-- [ ] Updating.
-- [ ] Removing from List View.
-- [ ] Removing from Detail View.
-- [ ] Duplicating. 
-- [ ] Action "Send Email".
+- [x] Creating.
+- [x] Updating.
+- [x] Removing from List View.
+- [x] Removing from Detail View.
+- [x] Duplicating. 
+- [x] Action "Send Email".
 
 ### BPM
 
-- [ ] Creating.
-- [ ] Updating.
-- [ ] Removing from List View.
-- [ ] Removing from Detail View.
-- [ ] Duplicating.
-- [ ] Run BPM process from record detail view.
+- [x] Creating.
+- [x] Updating.
+- [x] Removing from List View.
+- [x] Removing from Detail View.
+- [x] Duplicating.
+- [x] Run BPM process from record detail view.
 
 ## Sales Pack
 
 ### Quote
 
-- [ ] Creating.
-- [ ] Updating.
-- [ ] Removing from List View.
-- [ ] Removing from Detail View.
-- [ ] Duplicating.
-- [ ] Printing to PDF.
-- [ ] Sending PDF in email.
+- [x] Creating.
+- [x] Updating.
+- [x] Removing from List View.
+- [x] Removing from Detail View.
+- [x] Duplicating.
+- [x] Printing to PDF.
+- [x] Sending PDF in email.
 
 ### Sales Order
 
-- [ ] Creating.
-- [ ] Updating.
-- [ ] Removing from List View.
-- [ ] Removing from Detail View.
-- [ ] Duplicating.
-- [ ] Printing to PDF.
-- [ ] Sending PDF in email.
+- [x] Creating.
+- [x] Updating.
+- [x] Removing from List View.
+- [x] Removing from Detail View.
+- [x] Duplicating.
+- [x] Printing to PDF.
+- [x] Sending PDF in email.
 
 ### Invoice
 
-- [ ] Creating.
-- [ ] Updating.
-- [ ] Removing from List View.
-- [ ] Removing from Detail View.
-- [ ] Duplicating.
-- [ ] Printing to PDF.
-- [ ] Sending PDF in email.
+- [x] Creating.
+- [x] Updating.
+- [x] Removing from List View.
+- [x] Removing from Detail View.
+- [x] Duplicating.
+- [x] Printing to PDF.
+- [x] Sending PDF in email.
 
 ### Product
 
-- [ ] Creating.
-- [ ] Updating.
-- [ ] Removing from List View.
-- [ ] Removing from Detail View.
-- [ ] Duplicating.
+- [x] Creating.
+- [x] Updating.
+- [x] Removing from List View.
+- [x] Removing from Detail View.
+- [x] Duplicating.
 
 ## Google Integration
 
@@ -467,12 +467,12 @@
 
 ## Mailchimp Integration
 
-- [ ] Create a Campaign and Target List for MailChimp.
-- [ ] Sync Target List with EspoCRM into MailChimp.
-- [ ] Configure bulk email Campaign into MailChimp.
-- [ ] Start bulk email Campaign.
-- [ ] Check recieved emails.
+- [x] Create a Campaign and Target List for MailChimp.
+- [x] Sync Target List with EspoCRM into MailChimp.
+- [x] Configure bulk email Campaign into MailChimp.
+- [x] Start bulk email Campaign.
+- [x] Check recieved emails.
 
 ## Real Estate
 
-- [ ] Test properties and requests matching.
+- [x] Test properties and requests matching.
