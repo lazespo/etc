@@ -7,5 +7,6 @@
    
    Where `dev-27knukaj2kt8jmc8.us.auth0.com` is *Domain* from screenshot.
 4. Create Users:
-   ![image](https://github.com/lazespo/etc/assets/99325916/c8445cbd-ebb0-481b-a211-e53a955a3a04)
+![download](https://github.com/lazespo/etc/assets/99325916/acb1493e-dfd2-43e4-8363-9683129276de)
+
 
