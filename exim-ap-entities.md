@@ -3,6 +3,7 @@
 * [Report](#report)
 * [Workflow](#workflow)
 * [BPM](#bpm)
+* [Custom entities and fields export / import for Reports](#custom-entities-and-fields)
 
 ## Report
 
@@ -18,7 +19,7 @@ bin/command export-import export --format=json --path="build/ExportImport" --ent
 bin/command export-import import --format=json --path="build/ExportImport" --import-type=createAndUpdate --entity-list="Report, ReportCategory, ReportFilter, ReportPanel" --skip-config --skip-customization --skip-related-entities
 ```
 
-### Custom entities and fields export / import for Reports
+### Custom entities and fields
 
 If the Target Entity of at least one of the reports is custom entity, you need to add it to the `--entity-list` option. Example:
 
