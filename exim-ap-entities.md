@@ -1,5 +1,9 @@
 # Export / import Advanced Pack entities
 
+* [Report](#report)
+* [Workflow](#workflow)
+* [BPM](#bpm)
+
 ## Report
 
 **Export**
@@ -42,4 +46,32 @@ bin/command export-import export --format=json --path="build/ExportImport" --ent
 
 ```
 bin/command export-import export --format=json --path="build/ExportImport" --import-type=createAndUpdate --entity-list="Report, ReportCategory, ReportFilter, ReportPanel" --skip-config --all-customization --skip-related-entities
+```
+
+## Workflow
+
+**Export**
+
+```
+bin/command export-import export --format=json --path="build/ExportImport" --entity-list="Workflow, WorkflowCategory, WorkflowCategoryPath" --skip-config --skip-customization --skip-related-entities
+```
+
+**Import**
+
+```
+bin/command export-import import --format=json --path="build/ExportImport" --import-type=createAndUpdate --entity-list="Workflow, WorkflowCategory, WorkflowCategoryPath" --skip-config --skip-customization --skip-related-entities
+```
+
+## BPM
+
+**Export**
+
+```
+bin/command export-import export --format=json --path="build/ExportImport" --entity-list="BpmnFlowchart" --skip-config --skip-customization --skip-related-entities
+```
+
+**Import**
+
+```
+bin/command export-import import --format=json --path="build/ExportImport" --import-type=createAndUpdate --entity-list="BpmnFlowchart" --skip-config --skip-customization --skip-related-entities
 ```
