@@ -64,11 +64,23 @@ bin/command export-import export --format=json --path="build/ExportImport" --ent
 bin/command export-import import --format=json --path="build/ExportImport" --import-type=createAndUpdate --entity-list="Workflow, WorkflowCategory, WorkflowCategoryPath" --skip-config --skip-customization --skip-related-entities
 ```
 
-If the Target Entity is custom entity, it must be included in the `--entity-list` option.
+If the Target Entity of at least one of the workflows is custom entity, you need to add it to the `--entity-list` option. Example:
+
+**Export**
+
+```
+bin/command export-import export --format=json --path="build/ExportImport" --entity-list="Workflow, WorkflowCategory, WorkflowCategoryPath, CustomEntity" --skip-config --skip-customization --skip-related-entities
+```
+
+**Import**
+
+```
+bin/command export-import import --format=json --path="build/ExportImport" --import-type=createAndUpdate --entity-list="Workflow, WorkflowCategory, WorkflowCategoryPath, CustomEntity" --skip-config --skip-customization --skip-related-entities
+```
 
 ### Actions performance
 
-If there are certain actions in the Workflow, it is also important to add the following entities to the `--entity-list` option (depending on the Workflow actions):
+If there are certain actions in the workflow, it is also important to add the following entities to the `--entity-list` option (depending on the workflow actions):
 
 - Send Email - EmailTemplate, User, Team
 - Create Record - custom entity name if it is present in the action
@@ -95,7 +107,19 @@ bin/command export-import export --format=json --path="build/ExportImport" --ent
 bin/command export-import import --format=json --path="build/ExportImport" --import-type=createAndUpdate --entity-list="BpmnFlowchart" --skip-config --skip-customization --skip-related-entities
 ```
 
-If the Target Entity is custom entity, it must be included in the `--entity-list` option.
+If the Target Entity of at least one of the BPMs is custom entity, you need to add it to the `--entity-list` option. Example:
+
+**Export**
+
+```
+bin/command export-import export --format=json --path="build/ExportImport" --entity-list="BpmnFlowchart, CustomEntity" --skip-config --skip-customization --skip-related-entities
+```
+
+**Import**
+
+```
+bin/command export-import import --format=json --path="build/ExportImport" --import-type=createAndUpdate ---entity-list="BpmnFlowchart, CustomEntity" --skip-config --skip-customization --skip-related-entities
+```
 
 Depending on the presence of certain BPM elements, the following entities should be added to the `--entity-list` option:
 
