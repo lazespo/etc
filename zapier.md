@@ -21,7 +21,7 @@ Obtain the Site URL. It's an URL that you open in the browser to use EspoCRM. Yo
 
 !!! note
 
-    Integration with Zapier does not work for instances hosted on localhost and/or those that use ngrok links.
+    Integration with Zapier does not work for instances hosted on localhost.
 
 You will need to use the Site URL when connecting to Zapier.
 
