@@ -16,11 +16,17 @@ Obtain the Site URL. It's an URL that you open in the browser to use EspoCRM. Yo
 
 !!! important
 
-The Site URL must not contain a trailing slash. If you copied it from the browser's address bar, the slash usually is added. You need to remove it.
+    The Site URL must not contain a trailing slash. If you copied it from the browser's address bar, the slash usually is added. You need to remove it.
+
+!!! note
+
+    Integration with Zapier does not work for instances hosted on localhost and/or those that use ngrok links.
 
 You will need to use the Site URL when connecting to Zapier.
 
 ## Usage example
+
+This example will change the lead status after it is created in Espo instance.
 
 1. Press the *Create* button and select the Zaps section to create a new automated workflow.
    
@@ -60,5 +66,22 @@ You will need to use the Site URL when connecting to Zapier.
 
 ![image](https://github.com/lazespo/etc/assets/99325916/d23b7abc-a075-40f3-ada9-89eb615f6835)
 
+10. Go to Action section and select record ID (ID > Custom > ID).
+     
+![image](https://github.com/lazespo/etc/assets/99325916/d93b1a66-05cb-474b-90f9-7ce736593c4c)
 
+11. Select the status to which the lead initial status will change after it is created.
+    
+![image](https://github.com/lazespo/etc/assets/99325916/adb8d8c7-8144-4e86-b7c9-64c42b9d8a2c)
 
+12. Go to Test section and press *Test step* button to make sure that the zap is configured correctly.
+
+![image](https://github.com/lazespo/etc/assets/99325916/d69bfb2d-be2c-422e-bf76-7d4b7a0d4802)
+
+13. Check the lead in your instance, its status should change.
+
+14. Press *Publish* button on the zap creation page.
+
+![image](https://github.com/lazespo/etc/assets/99325916/345a0a9b-6ffa-4415-9404-85cd9b78b4a5)
+
+After successfully publishing this zap, the status of leads created in the instance will change to the one that was selected in the action.
