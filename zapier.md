@@ -3,6 +3,7 @@
 Create a Role in Espo at Administration > Roles. This Role will be used by the API User. When creating the Role, you need to specify permissions:
 
 * Assignment Permission – specify 'all' if you need the ability to assign records to any user;
+* User – set 'Enabled', set Read to 'all' if you need the ability to assign records to any user;
 * Lead – set 'Enabled', set Create to 'yes', Read to 'all'; set Edit if you need to update records through Zapier;
 * Webhooks – set 'Enabled' if you need records being sent from Espo to Zapier.
 
