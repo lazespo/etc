@@ -21,7 +21,7 @@ Obtain the Site URL. It's an URL that you open in the browser to use EspoCRM. Yo
 
 !!! note
 
-    Integration with Zapier does not work for instances hosted on localhost.
+    To integrate Zapier with EspoCRM instance without a SSL certificate, go to Zapier settings > Advanced > SSL Check and mark the *Disable SSL Certificate Checks* checkbox.
 
 You will need to use the Site URL when connecting to Zapier.
 
