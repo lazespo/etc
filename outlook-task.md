@@ -1,6 +1,6 @@
 ## EspoCRM v8.3.5
 
-- [ ] Check if synchronization works after a few hours.
+- [x] Check if synchronization works after a few hours.
 
 ### Outlook Calendar
 
@@ -37,7 +37,7 @@
 
 ## EspoCRM Master (v8.4)
 
-- [ ] Check if synchronization works after a few hours.
+- [x] Check if synchronization works after a few hours.
 
 ### Outlook Calendar
 
