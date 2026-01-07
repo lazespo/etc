@@ -19,6 +19,7 @@
 - [ ] Meeting
 - [ ] Call
 - [ ] Task
+- [ ] Message
 
 ### Communication (Core)
 
@@ -33,6 +34,7 @@
 
 - [ ] Email
 - [ ] Stream
+- [ ] PDF Template
 
 ### Extensions / Integrations
 
