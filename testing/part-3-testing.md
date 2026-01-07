@@ -3,6 +3,7 @@
 ### Communication & Marketing
 
 - [ ] Mass Email
+- [ ] Campaign
 
 ### Knowledge & Files
 
