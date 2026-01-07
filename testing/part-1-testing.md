@@ -4,7 +4,6 @@
 
 - [ ] Change language
 - [ ] Rebuild
-- [ ] Extensions installation (Google Integration, Outlook Integration, Meeting Scheduler)
 
 ### Core Entities
 
@@ -15,6 +14,7 @@
 - [ ] Case
 
 ### Activities
+
 - [ ] Calendar
 - [ ] Meeting
 - [ ] Call
