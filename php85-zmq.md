@@ -25,8 +25,8 @@ sudo apt install libsqlite3-dev libxml2-dev libssl-dev libcurl4-openssl-dev libz
 
 ```
 cd /usr
-wget https://www.php.net/distributions/php-8.5.0.tar.gz
-tar -xzf php-8.5.0.tar.gz
+sudo wget https://www.php.net/distributions/php-8.5.0.tar.gz
+sudo tar -xzf php-8.5.0.tar.gz
 cd php-8.5.0
 ```
 
