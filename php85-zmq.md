@@ -19,8 +19,8 @@ php --ri zmq
 3. Manual assembly of PHP v8.5:
 
 ```
-sudo apt update
-sudo apt install libsqlite3-dev libxml2-dev libssl-dev libcurl4-openssl-dev libzmq3-dev pkg-config build-essential autoconf bison re2c libonig-dev
+sudo apt update 
+sudo apt install libsqlite3-dev libxml2-dev libssl-dev libcurl4-openssl-dev libzmq3-dev pkg-config build-essential autoconf bison re2c libonig-dev php8.5-dev
 ```
 
 ```
@@ -41,14 +41,14 @@ sudo rm -r php-8.5.0
 
 ```
 cd /usr
-wget https://github.com/zeromq/php-zmq/archive/94920ac64398901175dc4372a429781712.tar.gz
-tar -xzf 94920ac64398901175dc4372a429781712.tar.gz
+sudo wget https://github.com/zeromq/php-zmq/archive/94920ac64398901175dc4372a429781712.tar.gz
+sudo tar -xzf 94920ac64398901175dc4372a429781712.tar.gz
 cd php-zmq-94920ac64398901175dc4372a429781712
 ```
 
 ```
-sudo phpize
-sudo ./configure --with-php-config=$(which php-config)
+sudo /opt/php8.5/bin/phpize
+sudo ./configure --with-php-config=/opt/php8.5/bin/php-config
 sudo make -j$(nproc)
 sudo make install
 cd ..
