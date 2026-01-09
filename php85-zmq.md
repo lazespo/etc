@@ -1,4 +1,4 @@
-1. Remove corrupted ZMQ module:
+1. Remove corrupted ZMQ module (WARNING):
 
 ```
 sudo dpkg -r --force-depends php8.5-zmq
