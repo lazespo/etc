@@ -74,6 +74,10 @@ find /opt/php8.5 -name zmq.so
 sudo nano /etc/php/8.5/fpm/conf.d/20-zmq.ini
 ```
 
+```
+sudo nano /etc/php/8.5/mods-available/zmq.ini
+```
+
 9. Enable ZMQ module:
 
 ```
