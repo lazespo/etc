@@ -19,7 +19,6 @@
 - [ ] Meeting
 - [ ] Call
 - [ ] Task
-- [ ] Message
 
 ### Communication (Core)
 
