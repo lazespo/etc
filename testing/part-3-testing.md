@@ -2,6 +2,7 @@
 
 ### Communication & Marketing
 
+- [ ] Message
 - [ ] Mass Email
 - [ ] Campaign
 
