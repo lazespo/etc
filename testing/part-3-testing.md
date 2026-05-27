@@ -15,6 +15,7 @@
 
 - [ ] Mailchimp Integration
 - [ ] Sales Pack
+- [ ] Stripe Integration
 - [ ] Project Management
 - [ ] VoIP Integration
 - [ ] Zoom Integration
